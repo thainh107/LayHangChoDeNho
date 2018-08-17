@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>2222222</title>
+</head>
+
+<body>
+    <ul>
+        <% newSp1.forEach(function(user){ %>
+            <li style="padding-top: 10px;">
+                <label style="font-size: 25px; color: black;"><%= user.name %></label>
+                <p>Loại : <label style="font-size: 22px; color: red;"><%= user.phanLoai %></label></p>
+                <p>Số lượng : <label style="font-size: 22px; color: blue;"><%= user.sl %></label></p>
+            </li>
+            <% })%>
+    </ul>
+</body>
+
+</html>
